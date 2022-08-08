@@ -7,11 +7,11 @@ Console.Write("Введите число B : "); clir = Console.ReadLine();
 b = double.Parse(clir);
 if (a > b)
 {  
-Console.WriteLine($"{a}");
+Console.WriteLine($"max = {a} min = {b}");
 }
 else if (a < b)
 { 
-Console.WriteLine($"{b}");
+Console.WriteLine($"max = {b} min = {a}");
 }
 else
 { 
